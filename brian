@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+   <title>Brian O'Meter</title>
+   <a href="index.html">Back to Home</a>
+   <h1>How much do you know about Brian's family? Take this quiz to find out!</h1>
+   <h2>Which member of Brian's family would like to test your knowledge on?</h2>
+   <h6><i>*All answers must be capitalized in order to receive credit</i></h6>
+   <button type="button" onclick="test(brian)">Brian</button>
+   <button type="button" onclick="test(erica)">Erica</button>
+   <button type="button" onclick="test(zach)">Zach</button>
+   <button type="button" onclick="test(kyle)">Kyle</button>
+   <button type="button" onclick="test(striker)">Striker</button>
+</head>
+
+<body>
+<script>
+   var brian = ["Brian", 49, "New York", 8.5, "Soccer", "December", 1];
+   var erica = ["Erica", 51, "New York", 5, "Gymnastics", "June", 3];
+   var zach = ["Zach", 17, "Florida", 8.5, "Soccer", "April", 23];
+   var kyle = ["Kyle", 15, "Florida", 8.5, "Soccer", "November", 29];
+   var striker = ["Striker", 5, "?", 0, "Soccer", "January", 4];
+  
+  function test(name){
+  
+   var answers = [];
+   for (let i=0; i<name.length; i++) {
+       answers[i] = name[i];
+   }
+   //document.write(answers+"<br>");
+   
+   var response = [];
+   response[0] = parseInt(prompt("How old is " + name[0] + "?"));
+   response[1] = prompt("What state was " + name[0] + " born?");
+   response[2] = parseFloat(prompt("What is " + name[0] + "'s shoe size? (to the nearest .5)"));
+   response[3] = prompt("What is " + name[0] + "'s favorite sport?");
+   response[4] = prompt("What month was " + name[0] + " born?");
+   response[5] = parseInt(prompt("What day of " + name[5] + " was " + name[0] + " born?"))
+   //document.write(response+"<br>");
+   
+   var score = 0;
+   for (let i=0; i<response.length; i++) {
+       if(name[i+1] == response[i]){
+           score = score + 1;
+           document.write("Question " + (i+1) + " is correct, the correct answer was " + name[i+1]);
+           document.write("<br>");
+       }
+       else {
+           document.write("Question " + (i+1) + " is incorrect, the correct answer was " + name[i+1]);
+           document.write("<br>");
+       }
+   } 
+  
+   document.write("<br>" + "Your score is " + score + " out of " + (response.length) + ", or " + 100*score/(response.length) + "%");
+   return;
+  }
+ 
+</script>
+ 
+<style>
+h1 {color:blue; background: #ffa500;font-weight:bold}
+body {background: lightBlue; text-align:center;}
+</style>
+</body>
+ 
+ 
+</html>
