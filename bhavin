@@ -1,0 +1,200 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Bhavin O Meter</title>
+    <meta charset="UTF-8”>
+    <meta name="description" content="What’s Bhavin? Welcome to the Bhavin O’Meter!">
+</head>
+<body>
+  <a href="index.html">Back to Home</a>
+  <h1>Bhavin O'Meter</h1>
+  <img src="data:image/jpeg;base64,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" alt="image1" width="400" height="300" class="center">
+  <h3><i>What's Bhavin?</i> Enter your stats to see where you rank on the Bhavin O'Meter</h3>
+  <p style="color:grey" font-size:10px;}><i>*Your data cannot and will not be viewed or stored in any way, making this site 100% anonymous</i></p>
+  <hr>
+    <form id="stats">
+      <label for="sat">SAT:</label>
+      <input id = "sat"><br>
+      <label for="act">ACT (if taken):</label>
+      <input id = "act"><br>
+      <label for="gpa">Weighted Heritage GPA:</label>
+      <input id = "gpa"><br>
+      <label for="ap">Number of AP Classes Taken all 4 Years:</label>
+      <input id = "ap"><br>
+    </form>
+
+    <h2 id="run">Click here to see where you rank on the Bhavin O'Meter!</h2>
+    <button id="restart" onClick="window.location.reload();" class="button">Restart</button>
+    <br><br><br><br><button id="print" onclick="window.print()" class="button">Print your results!</button>
+ 
+ 
+<script>
+function rank() {
+  var sat = document.getElementById("sat").value;  
+  var act = document.getElementById("act").value;
+  var gpa = document.getElementById("gpa").value;  
+  var ap = document.getElementById("ap").value;  
+ 
+    if (sat >= 1570 || act >= 36) {
+     sat = 10; //ashwin
+    }
+    else if (sat >= 1530 || act >= 35){
+     sat = 9;
+    }
+    else if (sat >= 1480 || act >= 34){
+     sat = 8; //sarik
+    }
+    else if (sat >= 1420 || act >= 32){
+     sat = 7;
+    }
+    else if (sat >= 1360 || act >= 30){
+     sat = 6; //rich
+    }
+    else if (sat >= 1300 || act >= 27){
+     sat = 5;
+    }
+    else if (sat >= 1250 || act >= 24){
+     sat = 4; //joffe
+    }
+    else if (sat >= 1175 || act >= 21){
+     sat = 3;
+    }
+    else if (sat >= 1000 || act >= 18){
+     sat = 2; //gabby
+    }
+    else if (sat >= 900 || act >= 15){
+     sat = 1;
+    }
+    else {
+     sat = 0;
+    }
+ 
+ 
+    if (gpa >= 5.75) {
+     gpa = 10;
+    }
+    else if (gpa >= 5.6){
+     gpa = 9;
+    }
+    else if (gpa >= 5.5){
+     gpa = 8;
+    }
+    else if (gpa >= 5.3){
+     gpa = 7;
+    }
+    else if (gpa >= 5){
+     gpa = 6;
+    }
+    else if (gpa >= 4.7){
+     gpa = 5;
+    }
+    else if (gpa >= 4.3){
+     gpa = 4;
+    }
+    else if (gpa >= 3.9){
+     gpa = 3;
+    }
+    else if (gpa >= 3.5){
+     gpa = 2;
+    }
+    else if (gpa >= 3){
+     gpa = 1;
+    }
+    else {
+     gpa = 0;
+    }
+ 
+ 
+ 
+   if (ap >= 10) {
+     ap = 10;
+    }
+    else if (ap >= 9){
+     ap = 9;
+    }
+    else if (ap >= 7){
+     ap = 8;
+    }
+    else if (ap >= 6){
+     ap = 7;
+    }
+    else if (ap >= 4){
+     ap = 6;
+    }
+    else if (ap >= 2){
+     ap = 5;
+    }
+    else if (ap >= 1){
+     ap = 4;
+    }
+    else {
+     ap = 1;
+    }    
+    
+   
+  
+  var score = (sat+ap+gpa)/3;
+    if (score >= 9.5) {
+     score = "Congrats! You are Ashwin Level. You must love math so much!";
+    }
+    else if (score >= 8.5){
+     score = "Congrats, you are Lower Ashwin Level. You must love math so much!";
+    }
+    else if (score >= 7.5){
+     score = "Kudos, you are Sarik Level. Michigan,Michigan,Michigan.";
+    }
+    else if (score >= 6.5){
+     score = "Kudos, you are Lower Sarik Level. Michigan,Michigan,Michigan.";
+    }
+    else if (score >= 5.5){
+     score = "Bro Bro Bro, you are Richard Level. You must love mashed potatoes.";
+    }
+    else if (score >= 4.5){
+     score =  "Bro Bro Bro, you are Richard Level. You must love mashed potatoes.";
+    }
+    else if (score >= 3.5){
+     score =  "*Horse Noise*, you are Olivia Joffe Level.";
+    }
+    else if (score >= 2.5){
+     score = "*Horse Noise*, you are  Lower Olivia Joffe Level.";
+    }
+    else if (score >= 1.5){
+     score = "L Bozo, you are Gabby Level.";
+    }
+    else if (score >= .5){
+     score ="L Bozo, you are Lower Gabby Level.";
+    }
+    else {
+     score = "You did something wrong, try again";
+    }
+    
+  return score;
+}
+ 
+document.getElementById("run").onclick = function() {result()};
+function result() {
+  document.getElementById("run").innerHTML = rank();
+}
+ 
+function reset() {
+  document.getElementById("stats").reset();
+}
+ 
+</script>
+ 
+<style>
+h1 {color: blue; font-weight:bold; font-size: 40px;background:red;}
+h1, h2, h3, p {text-align: center;}
+input {width:5%;}
+h2 {font-size: 50px; background: black; color: white;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {width:25%; display: block; margin-left: auto; margin-right: auto;}
+</style>
+ 
+</body>
+ 
+</html>
